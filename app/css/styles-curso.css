@@ -1,0 +1,194 @@
+
+
+/* 
+=========================== CSS ===============================
+Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro en llaves.
+
+*/
+
+/* =============== CODE - DIV ================= */
+
+
+
+
+
+
+/* HEADER INICIO*/
+.header-inicio  {
+    padding-bottom: 30px;
+    /* background-image: url("../img/fondo-general-02.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../img/fondo-general-02.jpg");
+    background-repeat: round;
+    /* background: linear-gradient(180deg, #222426, #5A6066); */
+    }
+
+.header-inicio div {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inicio h1 {
+    color: #fff;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.header-inicio h2{
+    color: #fff;
+    margin: 5px;
+    opacity: 0.7;
+}
+
+.header-inicio h3{
+    color: #fff;
+    margin: 5px;
+}
+
+.header-inicio img {
+    margin: 30px;
+}
+
+
+/* ================ DIV - MAIN ================ */ 
+.div-main {
+    display: flex;
+}
+
+.div-aside {
+    width: 25%;
+    float: left;
+}
+
+.div-section {
+    width: 70%;
+    float: left;
+}
+
+.div-footer {
+    float: left;
+}
+
+
+/* ================ ASIDE ================== */
+.aside {
+    background-color: #0E0F0F;
+    width: 100%;
+    height: 100em;
+    padding: 41px;   
+}
+
+.aside h3 {
+    color: #B3DDFF;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.aside img {
+    vertical-align: bottom;
+}
+
+.aside a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra)*/
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.aside-nav-animacion:hover {
+    color: #3388DB;
+    transition: 0.7s;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+
+
+/* ============== SECTIONS ================= */
+
+.section {
+    width: 100%;
+    height: 100%em;
+    background-color: #DFEBF7;
+}
+
+
+
+
+/* ================== ARTICLES =================== */
+.article-claro {
+    background-color: #fff;
+    width: 100%;
+    padding: 50px;
+}
+
+.article-oscuro {
+    background-color: #ECF5F7;
+    width: 100%;
+    padding: 50px;
+}
+
+/* Article Div Titulo */
+.article-div-titulo {
+    margin: 10px;
+}
+
+.article-div-titulo img {
+    vertical-align: middle;
+}
+
+.article-div-titulo h3 {
+    color: #3388DB;
+    margin-left: 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+/* Article Div Ejemplos */
+.article-div-ejemplos {
+    margin: 20px;
+}
+
+.article-div-ejemplos h4 {
+    color: #5A6066;
+}
+
+.article-div-ejemplos img {
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+/* Article Div Contenido */
+.article-div-contenido {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.article-div-contenido h4 {
+    color: #5A6066;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.article-div-contenido p {
+    color: #5A6066;
+    margin: 10px 20px 20px 0;
+}
+
+
+
+
+/* P */
+.p-text-mini{
+    color: lightcyan;
+    size: 6;
+    
+}
+
+
+

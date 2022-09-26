@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <title>Curso NC de CSS</title>
+
+     <!-- Etiqueta que pone el icono en la pestaña del navegador -->
+     <link rel="icon" href="img/favicon.jpg">
+
+     <!-- ETIQUETAS META -->
+     <!-- Etiqueta utf-8 : Etiqueta para codificar bien los caracteres de escritura-->
+     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+     <!-- Etiqueta keywords : Etiqueta para agregar las palabras clave -->
+     <meta name="keywords" content="">
+     <!-- Etiqueta description : Etiqueta para agregar la descripcion de la pagina -->
+     <meta name="description" content="">
+     <!-- Etiqueta author : Etiqueta para agregar el autor de la pagina -->
+     <meta name="author" content="NC - Newsoft Computer">
+     <!-- Etiqueta author : Etiqueta para agregar el autor de la pagina -->
+     <meta name="copyright" content="NC - Newsoft Computer">
+     <!-- Etiqueta viewport: para volver la pagina web RESPOSIVE DESING ( La pagina se adapta a cualquier dispositivo o pantalla ) -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Enlaces CSS -->
+     <link rel="stylesheet" type="text/css" href="css/main.css" />
+     <link rel="stylesheet" type="text/css" href="css/styles-curso.css" />
+     <link rel="stylesheet" type="text/css" href="css/code.css" />
+
+</head>
+
+<body>
+
+     <main>
+          <!-- HEADER INICIO -->
+          <header class="header-inicio">
+               <!-- Este es el menu (nav)   -->
+               <nav class="nav">
+
+                    <!-- 
+                    <div class="menu-logo">
+                         <img  src="img/css3.png" width="40px">
+                    </div>
+                    -->
+
+                    <ul>
+                         <!-- Etiqueta para hacer un enlace (a)-->
+                         <li active> <a class="nav-animacion" href="index.html"> Inicio </a> </li>
+                         <li> <a class="nav-animacion" href="curso.html"> Curso </a> </li>
+                         <li> <a class="nav-animacion" href="ejercicios.html"> Ejercicios </a> </li>
+                         <li> <a class="nav-animacion" href="acerca-de.html"> Acerca de </a> </li>
+                    </ul>
+
+                    
+                    <div class="nav-buscar">
+                         <label for="">Buscar</label>
+                         <input type="text" placeholder="Campo de busqueda">
+                         <a class="nav-buscar-animacion" href="#">Buscar</a>
+                    </div>
+                    
+               </nav>
+
+               <div class="div-img-header">
+                    <img src="img/css-04.svg" width="200px">
+               </div>
+
+               <div class="header-div">
+                    <h1 class="header-h1"> CSS </h1>
+               </div>
+
+               <div class="header-div">
+                    <h2 class="header-h1"> Curso NC de CSS </h2>
+               </div>
+
+
+          </header>
+          <!-- HEADER FIN -->
+     </main>
+
+
+
+
+     <!-- ASIDE INICIO -->
+     <div class="div-aside">
+
+          <aside class="aside">
+
+               <br>
+               <div>
+                    <img src="./img/cuadri-cula.svg" alt="CSS" width="30px">
+                    <h3> Contenido </h3>
+                    </a>
+               </div>
+               
+               <br><br>
+               <nav>
+                    <ul>
+                         <div>
+                              <img src="./img/css-02.svg" alt="CSS" width="25px">
+                              <a class="aside-nav-animacion" href="#css"> CSS - Cascading Style Sheets
+                              </a>
+                         </div>
+                         <br>
+                         <div>
+                              <img src="./img/select.svg" alt="CSS" width="25px">
+                              <a class="aside-nav-animacion" href="#selectores"> Selectores </a>
+                         </div>
+                         <br>
+                         <div>
+                              <img src="./img/add.svg" alt="CSS" width="25px">
+                              <a class="aside-nav-animacion" href="#selectores"> Como agregar CSS </a>
+                         </div>
+                         <br>
+                         <div>
+                              <img src="./img/priority.svg" alt="CSS" width="25px">
+                              <a class="aside-nav-animacion" href="#selectores"> Prioridad o Especificidad en CSS </a>
+                         </div>
+                         <br>
+                         
+                    </ul>
+               </nav>
+
+               <br><br><br><br><br><br><br><br><br><br><br><br><br>
+               <p class="p-text-mini">Este es el aside</p>
+
+          </aside>
+     </div>
+     <!-- ASIDE FIN -->
+
+
+     <!-- SECTION INICIO -->
+     <div class="div-section">
+          <section class="section">
+
+               <article id="css" class="article-claro">
+
+                    <div class="article-div-titulo">
+                         <img  src="./img/css-02.svg" alt="CSS" width="35x">
+                         <h3 >CSS - Cascading Style Sheets</h3>
+                    </div>
+
+                    <hr>
+                    <br>
+
+                    <div class="article-div-contenido">
+                         <h4> CSS - Hojas de Estilo en Cascada </h4>
+                         <p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», 
+                              es un lenguaje de diseño gráfico para definir y crear la presentación de un documento 
+                              estructurado escrito en un lenguaje de marcado.​ Es muy usado para establecer el diseño visual de los documentos web, 
+                              e interfaces de usuario escritas en HTML o XHTML; 
+                              el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. 
+                              Te puede ayudar a crear tu propio sitio web. Junto con HTML y JavaScript, 
+                              CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, 
+                              interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS).
+                         ​</p>
+                         <p>
+                              CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, 
+                              características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad 
+                              del documento, proveer más flexibilidad y control en la especificación de características presentacionales, 
+                              permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, 
+                              y reducir la complejidad y la repetición de código en la estructura del documento.
+                         </p>
+
+                         <p>
+                              La separación del formato y el contenido hace posible presentar el mismo documento marcado en diferentes estilos para diferentes 
+                              métodos de renderizado, como en pantalla, en impresión, en voz (mediante un navegador de voz o un lector de pantalla, 
+                              y dispositivos táctiles basados en el sistema Braille. También se puede mostrar una página web de manera diferente 
+                              dependiendo del tamaño de la pantalla o tipo de dispositivo. Los lectores pueden especificar una hoja de estilos diferente, 
+                              como una hoja de estilos CSS guardado en su computadora, para sobreescribir la hoja de estilos del diseñador.
+                         </p>
+
+                         <p>
+                              La especificación CSS describe un esquema prioritario para determinar qué reglas de estilo se aplican si más de una 
+                              regla coincide para un elemento en particular. Estas reglas son aplicadas con un sistema llamado de cascada, 
+                              de modo que las prioridades son calculadas y asignadas a las reglas, así que los resultados son predecibles.
+
+                              La especificación CSS es mantenida por el World Wide Web Consortium (W3C). 
+                              El MIME type text/css está registrado para su uso por CSS descrito en el RFC 23185​. 
+                              El W3C proporciona una herramienta de validación de CSS gratuita para los documentos CSS.
+                         </p>
+
+                         <p>
+                              - CSS son las siglas de C ascading S tyle S heets
+
+                              - CSS describe cómo se mostrarán los elementos HTML en pantalla, papel o en otros medios.
+
+                              - CSS ahorra mucho trabajo . Puede controlar el diseño de varias páginas web a la vez
+
+                              - Las hojas de estilo externas se almacenan en archivos CSS
+                         </p>
+
+                         <div class="article-div-ejemplos">
+                              <h4> Sintaxis CSS </h4>
+                              <img  src="./img/css-partes.png" alt="CSS" width="400x">
+                         </div>
+                    </div>
+                    
+               </article>
+
+               <article id="selectores" class="article-oscuro">
+                    <div class="article-div-titulo">
+                         <img class="article-img" src="./img/select.svg" alt="CSS" width="35px">
+                         <h3 class="article-h3">Selectores</h3>
+                    </div>
+
+                    <hr>
+                    <br>
+
+                    <div class="article-div-contenido">
+                         
+                         <p>- Los selectores CSS se utilizan para "buscar" (o seleccionar) los elementos HTML que desea aplicar estilo. 
+                              Podemos dividir los selectores de CSS en cinco categorías:</p>
+                         <h4> Selector Universal</h4>
+                         <p>Se utiliza para seleccionar todos los elementos de la página</p>
+                         <p>A partir de CSS3, el asterisco se puede utilizar en combinación con namespaces:
+                              <P> ns|*- coincide con todos los elementos en el espacio de nombres ns
+                              <P> *|* - coincide con todos los elementos</P>     
+                              <P> |* - coincide con todos los elementos sin ningún espacio de nombres declarado</P>
+                         </p>
+
+                    </div>
+
+                    
+                    <!-- DIV CODE INICIO -->
+                    <div id="div-code" class="div-code">
+                         <div class="div-header">
+                              <a href="#" title="Cerrar">
+                                   <div class="button-cerrar"></div>
+                              </a>
+
+                              <a href="#" title="Minimizar">
+                                   <div class="button-minimizar"></div>
+                              </a>
+
+                              <a href="#" title="Abrir">
+                                   <div class="button-abrir"></div>
+                              </a>
+                         </div>
+
+                         <div class="div-body">
+                              <h3> Code CSS <> </h3>
+                              <textarea name="" id="" cols="30" rows="29">
+                                   
+                                   /* SELECTOR UNIVERSAL */
+                                   * {
+                                     color: blue;
+                                   }
+
+                                   * [lang^=en] {
+                                        color: green;
+                                      }
+                                      
+                                      *.warning {
+                                        color: red;
+                                      }
+                                      
+                                      *#maincontent {
+                                        border: 1px solid blue;
+                                      }
+                                      
+                                      .floating {
+                                        float: left
+                                      }
+                                      
+                                      /* automatically clear the next sibling after a floating element */
+                                      .floating + * {
+                                        clear: left;
+                                      }
+
+
+                         </textarea>
+                         </div>
+
+                         <div class="div-footer">
+                              <p>Notas: </p>
+                              <textarea name="" id="" cols="30" rows="3">
+                              Agregar notas aquí
+                         </textarea>
+                         </div>
+                    </div>
+                    <!-- DIV CODE FIN-->
+
+                    <br>
+
+                    <div class="article-div-contenido">
+                         <h4> Selector de Elementos, Tipo o Etiqueta </h4>
+                         <p>Selecciona todos los elementos de la página cuya etiqueta HTML coincide con el valor del selector. 
+                              El siguiente ejemplo selecciona todos los párrafos de la página:</p>
+                    </div>
+                    <!-- DIV CODE INICIO -->
+                    <div id="div-code" class="div-code">
+                         <div class="div-header">
+                              <a href="#" title="Cerrar">
+                                   <div class="button-cerrar"></div>
+                              </a>
+
+                              <a href="#" title="Minimizar">
+                                   <div class="button-minimizar"></div>
+                              </a>
+
+                              <a href="#" title="Abrir">
+                                   <div class="button-abrir"></div>
+                              </a>
+                         </div>
+
+                         <div class="div-body">
+                              <h3> Code CSS <> </h3>
+                              <textarea name="" id="" cols="30" rows="20">
+                                   
+                                   /* SELECTOR DE ELEMENTO, TIPO O ETIQUETA*/
+                                   p {
+                                        text-align: center;
+                                        color: red;
+                                      }
+
+                                   h1 {
+                                        color: red;
+                                      }
+                                      
+                                   h2 {
+                                        color: blue;
+                                      }
+                                      
+                                   p {
+                                        color: black;
+                                      }
+                              </textarea>
+                         </div>
+
+                         <div class="div-footer">
+                              <p>Notas: </p>
+                              <textarea name="" id="" cols="30" rows="3">
+                              Agregar notas aquí
+                         </textarea>
+                         </div>
+                    </div>
+                    <!-- DIV CODE FIN-->
+
+               </article>
+
+          </section>
+     </div>
+     <!-- SECTION FIN -->
+
+</body>
+
+
+<!-- FOOTER -->
+<div class="div-footer">
+          
+     <footer class="footer">
+
+          <div class="footer-div">
+               <img src="./img/logo-nc.png" alt="" width="40px">
+          </div>
+
+          <div class="footer-div">
+               <p> NC - Newsoft Computer </p>
+          </div>
+
+          <div class="footer-div">
+               <p> Cursos NC </p>
+          </div>
+
+          <div class="footer-div">
+               <img src="./img/github-brands.svg" alt="" width="30px">
+          </div>
+
+          <div class="footer-div">
+               <a class="footer-a-animacion" href="https://github.com/andresganc/curso-css.git" target="_blank">
+                    Repositorio
+                    github - Curso CSS</a>
+          </div>
+
+          <br>
+     </footer>
+</div>
+
+
+
+
+
+</html>

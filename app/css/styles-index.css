@@ -1,0 +1,84 @@
+
+
+/* 
+=========================== CSS ===============================
+Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro en llaves.
+
+*/
+
+
+/* HEADER INICIO*/
+.header-inicio  {
+    padding-bottom: 30px;                                              /* Margen interna abajo*/
+    background: linear-gradient(0deg, #222426, #5A6066);         /* Degradado Linear pide 3 parametros ( Grados, Color Inicio, Color Fin )*/
+    /* background: linear-gradient(135deg, #d41e31, #491f8f); */
+}
+
+.header-inicio div {
+    display: flex;              /* Mostrar flexible*/
+    margin: auto;               /* MArgen automatico */
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inicio h1 {
+    color:  #fff;
+    margin: 5px;
+}
+
+.header-inicio h2{
+    color:  #fff;
+    margin: 5px;
+}
+
+.header-inicio h3{
+    color:  #fff;
+    margin: 5px;
+}
+
+.header-inicio img {
+    margin: 40px;
+}
+
+.a-button {
+    position: relative;             /* Posicion relativa */
+    /* color: #111; */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;            /* Radio de borde 10pixeles*/
+    margin-top: 30px;               /* Margen externa: arriba */
+    text-decoration: none;
+    /* background: #fff; */
+    /* ackground: linear-gradient(135deg, #d41e31, #491f8f); */
+    background: linear-gradient(135deg, #354EE8, #3DA7DB);    
+}
+
+.a-button:hover {
+    /* color: #3D77F2; */
+    color:   #222426;
+    transform: translateY(5%);      /* Trasladar en el eje X o Y por porcentaje */
+    opacity: 0.9;                   /* Opacida de 0 = Oculto / 1 = Visible */
+    font-size: 15px;                /* Tamaño de la letra */
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,187 @@
+
+/* 
+MAIN.CSS
+Principal
+*/
+
+/*  importacion de fuentes Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* 
+SELECTOR UNIVERSAL
+- El selector universal es el caracter asterisco *
+- El selector universal afecta todas las etiquetas de la pagina web donde haya sido linkeado ( Afecta todos las etiquetas )
+*/
+* {
+    margin: 0;                 /* Margen del borde de un objeto hacia exterior  */
+    padding: 0;                 /* Margen del bode de un objeto hacia el interior */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 
+SELECTOR DE TIPO
+- El selector de tipo se usa poniendo el nombre de la etiqueta
+- Afecta solo las etiquetas hechas en los archivos linkeados 
+*/
+html {
+    scroll-behavior: smooth;        /* Desplazamiento del scroll: Suave */
+}
+
+body {
+    justify-content: center;        /* Contenido justificado al centro */
+    align-items: center;            /* Objetos alineados al centro */
+}
+
+
+/* ============== NAV / LOGO ===============*/
+.logo {
+    background-color: maroon;
+    display: inline-block;
+    width: 40px;
+    line-height: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+SELECTOR DE CLASE
+- Los selectores de clase se crean con el caracter punto .
+- Los selectores de clase se crean y se nombran en el archivo .css y se llaman desde el archivo html
+    linkeando y referenciando desde la clase de la etiqueta
+*/
+
+/* NAV / PRINCIPAL*/
+.nav {
+    background-color: #222426;          /* Color de fondo en hexadecimal */
+    margin: 0px;                        /* Margen externa a todos los 4 lados en pixeles*/
+    padding: 20px;                      /* Margen interna a los 4 lados en pixeles*/ 
+}
+
+.nav-div {
+   display: inline-block; 
+   line-height:0;
+   font-size: 0;
+}
+
+/*
+SELECTORES HIJOS
+-  Se agregan a la seleccion de clase despues de un espacio con el nombre de la etiqueta
+*/ 
+.nav ul {
+    display: inline-block;              /* Mostrar bloques en linea (A un lado) */
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;      /* Visualizacion en bloques de linea (Ordena o alinea a un lado)*/ 
+    margin: 5px;
+    padding-left: 5px;          /* Margen interna a la izquierda en pixeles*/
+    padding-right: 5px;         /* Margen interna a la derecha en pixeles */
+}
+
+.nav a {
+    color: rgb(187, 131, 57);         /* Color de la fuente (Color de letra) en RGB */
+    text-decoration: none;              /* Decaoracion de texto : Ninguno*/
+    font-size: 14px;
+    margin-left: 0;
+}
+
+
+/* 
+Selector Hover
+- El selector hover ocurre cuando el puntero del mouse esta sobre el objeto
+*/
+.nav-animacion:hover {
+    background-color: #5A6066;      
+    color: #fff;
+    border-radius: 15px;            /* Radio del borde 15pixeles */
+    transition: 0.8s;               /* Transicion del efecto realizado por segundos*/
+    padding: 10px;
+    text-decoration: none;          /* Quitar lineas de decoracion de las etiquetas a*/
+}
+
+
+/* ============== NAV / BUSCAR ====================*/
+.nav-buscar {
+    float: right;
+}
+
+.nav-buscar label {
+    color: rgb(187, 131, 57);
+    margin: 5px;
+}
+
+.nav-buscar input {
+    height: 35px;
+    border-radius: 5px;
+    margin: 2px;
+    color:  #222426;
+    padding: 2px;
+}
+
+.nav-buscar a {
+    width: 80px;
+    height: 33px;
+    color: #111;    
+    border-radius: 10px;
+    background: #fff;
+    margin: 2px;
+    padding-top: 3px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-buscar-animacion:hover {
+    color: #3D77F2;
+    transform: translateY(10%);
+    transition: 0.5s;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+
+/* ============== FOOTER ======================*/
+.footer {
+    /* background: linear-gradient(180deg, #5A6066, #222426 ); */
+    background-color: #222426;
+    margin: auto;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer img {
+    display: center;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+.footer p {
+    color: #fff; 
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff;
+    margin: 2px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-a-animacion:hover {
+    color: #a4c639;
+    transition: 0.5s;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+

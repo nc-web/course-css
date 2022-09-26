@@ -1,0 +1,38 @@
+
+/* Selector Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Goldman', cursive;
+}
+
+.card {
+    background-color: #dfe8f5;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 25%;
+    margin: 40px 10px 10px 10px;
+}
+
+.h2 {
+    margin: 10px;
+    color: #43484D;
+}
+
+.h3 {
+    margin: 10px;
+    color: #767E87;
+}

@@ -1,0 +1,116 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Goldman', cursive;
+}
+
+body {
+    align-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+h3 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+h4 {
+    text-align: center;
+    vertical-align: middle;
+    color: #454B4F;
+}
+
+.div-main {
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.div-content {
+    display: inline-block;
+}
+
+
+/* CUADRADO */
+.cuadrado {
+    background-color: #7983E8;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+
+/* RECTANGULO */
+.rectangulo {
+    background-color: #E3E33B;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 30px;
+    transform: translateY(-60px);
+}
+
+/* CIRCULO */
+.circulo {
+    background-color: #96E654;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 30px;
+}
+
+/* PARALELOGRAMOS */
+.paralelogramos {
+    background-color: #E3447C;
+    width: 200px;
+    height: 100px;
+    transform: skew(15deg);         /* Sesgar */
+    display: inline-block;
+    margin: 30px;
+}
+
+/* ROMBO */
+.rombo {
+    background-color: #E6862E;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg) skew(5deg, 5deg) translate(-10%, -10%);  /* Rotar - Sesgar - Trasladar en eje diagonal en 2 sentidos */
+    display: inline-block;
+    margin: 70px 30px 30px 30px;
+}
+
+/* TRAPECIO */
+.trapecio {
+    width: 250px;
+    height: 250px;
+    border-bottom: 100px solid #428bca;
+    border-left: 60px solid  transparent;
+    border-right: 60px solid transparent;
+    display: inline-block;
+    margin: 30px;
+}
+
+/* TRIANGULO */
+.triangulo {
+    width: 200px;
+    height: 200px; 
+    border-bottom: 150px solid #3D2C19;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    display: inline-block;
+    margin: 30px;
+}
+
