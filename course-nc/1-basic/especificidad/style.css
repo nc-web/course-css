@@ -1,0 +1,74 @@
+
+/* Etiqueta*/
+
+
+/* Classes */
+
+#idtitle1 {
+    background-color: aqua;
+}
+
+.title1 {
+    background-color: green;
+}
+
+/* ID */
+#idtitle2 {
+    background-color: brown;
+}
+
+h2 {
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Atributos */
+href {
+    background-color: yellow;
+}
+
+/* Pseudo Clases (Llevan : ) */
+h2:hover {
+    transition: .3s;
+    background-color: rgb(102, 93, 81);
+    color: white;
+}
+
+h2:active {
+    transition: .5s;
+    transform: scale(.9);
+    background-color: rgb(116, 97, 73);
+    color: gray;
+}
+
+
+/* Pseudo Elementos (Lleva ::) */
+.title2::before {
+    content: '*';
+}
+
+h2::after {
+    content: '---';
+}
+
+
+
+
+
+
+

@@ -7,6 +7,10 @@ Para hacer una modificacion de CSS en la pagina web llamo la etiqueta y encierro
 */
 
 
+h2 {
+    background-color: #5D57B3;
+}
+
 /* HEADER INICIO*/
 .headerInicio  {
     background-color: #323538;
