@@ -1,0 +1,25 @@
+
+.main {
+    position: relative;
+    left: 200px;
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+}
+
+.box1 {
+    position: relative;
+    top: 250px;
+    left: 250px;
+    background-color: chocolate;
+}
+
+.box2 {
+    position: relative;
+    background-color: chartreuse;
+}
