@@ -6,7 +6,7 @@
 
 ## PENDIENTES CSS
  
- 1 Etiquetas, Clases, IDs, Pseudo Clases, Pseudo Elementos, Atributos
+ 1. Etiquetas, Clases, IDs, Pseudo Clases, Pseudo Elementos, Atributos
  
  2. Especificidad
  

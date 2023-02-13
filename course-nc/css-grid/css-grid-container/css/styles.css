@@ -4,9 +4,36 @@
     padding: 0;
 }
 
+
 /* GRID-TEMPLATE-COLUMNS */
 /* DIV CONTAINER 1 */
 .div-container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+}
+
+.div1 {
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+.div2 {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.div3 {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.div4 {
+    background-color: brown;
+    border-radius: 10px;
+}
+
+/* .div-container-1 {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-columns: auto auto;
@@ -19,7 +46,7 @@
     height: 50px;
     background-color: chocolate;
     border-radius: 20px;
-}
+} */
 
 
 /* GRID CONTAINER 2*/

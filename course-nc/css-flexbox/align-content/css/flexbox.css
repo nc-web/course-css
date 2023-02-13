@@ -1,0 +1,175 @@
+
+/* SECTION */
+.section-justify-content {
+    background-color: #3E4145;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-justify-content h2 {
+    text-align: center;
+    color: white;
+}
+
+
+
+/* CONTENEDOR-1 */
+.contenedor-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contenedor-1 h3 {
+    color: indigo;
+    margin: 10px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CONTENEDOR-2 */
+.contenedor-2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-2 button {
+    background-color: #70767D;
+    color: white;
+    padding: 0.5rem;
+}
+
+
+/* SECTION */  
+.section-aling-self {
+    background-color: #3E4145;
+    margin: 10px;
+    padding: 100px;
+}
+
+/* Div */
+.div-as-1 {
+    display: flex;
+    align-self: auto;
+}
+
+.div-as-2 {
+    display: flex;
+    align-self: stretch ;
+}
+
+
+/* CONTENEDOR-3 */
+.contenedor-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-3 img {
+    width: 300px;
+}
+
+
+
+/* CONTENEDOR-4 */
+.contenedor-4 {
+    display: flex;
+}
+
+.menu-left {
+    background-color: teal;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.menu-right {
+    background-color: tomato;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* SECTION */  
+.section-aling-items {
+    background-color: #3E4145;
+    margin: 10px;
+    padding: 100px;
+}
+
+
+
+/* ALING ITEMS */
+/* Stretch */
+.contenedor-ai-1 {
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    background-color: darkcyan;
+    height: 300px;
+}
+
+.div-ai-1 {
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    margin: 10px;
+}
+
+/* Baseline */
+.contenedor-ai-2 {
+    display: flex;
+    align-items: baseline;
+    flex-flow: row wrap;
+    background-color: darkgoldenrod;
+    height: 300px;
+}
+
+
+/* SECTION */
+.section-aling-content {
+    background-color: #3E4145;
+    padding: 100px;
+}
+
+
+/* ALING CONTENT */
+/* Flex-end */
+.contenedor-ac-1 {
+    display: flex;
+    align-content: flex-end;
+    flex-flow: row wrap;
+    background-color: firebrick;
+    height: 300px;
+}
+
+.div-ac-1 {
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+
+/* space-between */
+.contenedor-ac-2 {
+    display: flex;
+    align-content: space-between;
+    flex-flow: row wrap;
+    background-color: darkcyan;
+    height: 300px;
+}
+
+.div-ac-2 {
+    width: 45%;
+    height: 50px;
+    background-color: chartreuse;
+    margin: 0px 10px;
+}
