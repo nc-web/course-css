@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: #263238;
+}
+
+
+.ejemplo__menu {
+    width: 100%;
+    height: 50px;
+    background-color:#B71C1C;
+    display: flex;
+    justify-content: center;
+    transform: rotate(-1deg);
+    margin-top: 10px;
+        
+}
+
+.ejemplo__encabezado{
+    width: 100%;
+    height: 400px;
+    background-color:#263238;
+}
+
+.ejemplo__seccion1{
+    width: 100%;
+    height: 400px;
+    background-color:#37474F;
+}
+
+.ejemplo__seccion2{
+    width: 100%;
+    height: 400px;
+    background-color:#263238;
+}
+
+.ejemplo__footer {
+    width: 100%;
+    height: 90px;
+    background-color:#5e0505;
+}
+
+.ejemplo__menu1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ejemplo__menu-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: #fda7a7;
+    text-decoration: none;
+}
