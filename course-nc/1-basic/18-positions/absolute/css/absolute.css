@@ -1,15 +1,23 @@
+/* 
+POSITION ABSOLUTE
 
+1. No respeta los espacios de los elementos vecinos
+2. No es bloque en en inline-bloq
+3. Toma coma referncia al contenedor padre y si no tiene
+toma al body o html
+*/
 .main1 {
-    position: relative;
+    /* position: relative;
     width: 500px;
     height: 500px;
-    background-color: blue;
+    background-color: blue; */
 }
 
 .main2 {
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 500px;
+    left: 200px;
     background-color: aquamarine;
 }
 
@@ -20,11 +28,12 @@
 
 .box1 {
     position: absolute;
-    left: 300px;
+    left: 200px;
     background-color: chocolate;
 }
 
 .box2 {
     position: absolute;
+    left: 200px;
     background-color: chartreuse;
 }

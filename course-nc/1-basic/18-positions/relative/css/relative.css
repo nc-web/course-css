@@ -1,8 +1,17 @@
 
+/*
+RELATIVE POSITION
+
+1. Respeta los espacios de sus elementos vecinos
+2. La posicion relativa es bloque y no pierde sus medidas
+3. Toma como referencia el contenedor padre y si no tiene
+toma el body o el html
+*/
+
 .main {
     position: relative;
     left: 200px;
-    width: 1000px;
+    width: 500px;
     height: 500px;
     background-color: aquamarine;
 }
@@ -14,12 +23,12 @@
 
 .box1 {
     position: relative;
-    top: 250px;
-    left: 250px;
     background-color: chocolate;
+    left: 300px;
 }
 
 .box2 {
     position: relative;
     background-color: chartreuse;
+    left: 50px;
 }
