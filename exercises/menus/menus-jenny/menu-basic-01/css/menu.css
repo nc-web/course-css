@@ -1,0 +1,47 @@
+
+.menu__ul {
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-100%);
+    background-color: blue;
+    color: white;
+
+}
+
+.menu__ul--show {
+    padding: .5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(0);
+    transition: transform .5s;
+    background-color: blue;
+    color: white;
+}
+
+.menu__cont-img {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    z-index: 1;
+}
+
+.menu__cont-img-img {
+    width: 3.1rem;
+}
+
+/* Views Desktop */
+
+@media (max-width: 425px)  {
+   .menu__ul {
+        flex-direction: row;
+   }
+
+   .menu__cont-img {
+        display: none;
+}
+}
