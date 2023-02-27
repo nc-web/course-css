@@ -1,0 +1,52 @@
+
+.menu {
+}
+
+.menu__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: .5rem;
+    width: 100%;
+    transform: translateX(100%);
+    background-color: blue;
+}
+
+.menu__ul--show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: .5rem;
+    width: 100%;
+    transition: transform 0.5s;
+    transform: translateX(0);
+    background-color: blue;
+}
+
+.menu__cont-img {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    width: 2rem;
+    z-index: 1;
+}
+
+.menu__cont-img-img {
+    width: 100%;
+    /* filter: invert(); */
+}
+
+/* VIEWS DESKTOP */
+
+@media (max-width: 425px) {
+    .menu__ul {
+        flex-direction: row;
+    }
+
+    .menu__cont-img {
+        display: none;
+    }
+}
+
