@@ -1,0 +1,38 @@
+
+.menu__ul{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: red;
+    width: 100%;
+    padding: .5rem;
+    transform: translateY(-1000%);
+}
+
+.menu__ul--show{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: red;
+    width: 100%;
+    padding: .5rem;
+    transform: translateY(0);
+    transition: 1s;
+}
+
+.menu__container-img{
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    width: 4.5rem;
+    z-index: 1;
+}
+
+.menu__container-img-img{
+    width: 100%;
+    fill: aqua;
+}
