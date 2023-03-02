@@ -40,7 +40,7 @@
 
 /* VIEWS DESKTOP */
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .menu__ul {
         flex-direction: row;
     }
@@ -48,5 +48,5 @@
     .menu__cont-img {
         display: none;
     }
-}
+} */
 
