@@ -7,6 +7,13 @@
     como ubicacion
     3. 
 */
+
+.header {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
 .menu {
     position: sticky;
     top: 0;
@@ -23,12 +30,6 @@
 
 .lista {
     display: flex;
-}
-
-.header {
-    width: 100%;
-    height: 500px;
-    background-color: blue;
 }
 
 .services {
